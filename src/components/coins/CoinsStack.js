@@ -1,10 +1,10 @@
 import React from 'react';
-import {createStackNavigator} from '@react-navigation/stack';
+import { createStackNavigator } from '@react-navigation/stack';
 import CoinsScreen from "./CoinsScreen";
 
-const stack = createStackNavigator();
+const Stack = createStackNavigator();
 
-const CoinStack = () => {
+const CoinsStack = () => {
   return (
     <Stack.Navigator>
       <Stack.Screen name="Coins" component={CoinsScreen} />
@@ -12,4 +12,4 @@ const CoinStack = () => {
   );
 };
 
-export default CoinStack
+export default CoinsStack
